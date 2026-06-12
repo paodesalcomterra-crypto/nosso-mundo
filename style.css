@@ -37,6 +37,8 @@ body{
 
     text-align:center;
 
+    padding:20px;
+
 }
 
 #telaInicial h1{
@@ -168,7 +170,8 @@ li{
     margin-top:30px;
 
 }
-/* GALERIA DE MOMENTOS */
+
+/* GALERIA */
 
 .galeria{
 
@@ -234,5 +237,109 @@ li{
     font-size:16px;
 
     line-height:1.6;
+
+}
+
+/* CELULAR */
+
+@media (max-width:768px){
+
+    body{
+        background-attachment:scroll;
+    }
+
+    #telaInicial h1{
+        font-size:42px;
+    }
+
+    #telaInicial p{
+        font-size:20px;
+    }
+
+    button{
+        padding:15px 40px;
+        font-size:20px;
+    }
+
+    section{
+        padding:25px 15px;
+    }
+
+    h2{
+        font-size:30px;
+        margin-bottom:25px;
+    }
+
+    p{
+        font-size:18px;
+    }
+
+    .galeria{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+        margin-top:30px;
+
+    }
+
+    .momento{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        text-align:center;
+
+        gap:15px;
+
+        padding:18px;
+
+    }
+
+    .momento img{
+
+        width:100%;
+
+        max-width:320px;
+
+    }
+
+    .info{
+
+        max-width:100%;
+
+        text-align:center;
+
+    }
+
+    .info p{
+
+        font-size:18px;
+
+        line-height:1.5;
+
+    }
+
+    #lista500{
+
+        width:100%;
+
+    }
+
+    #lista500 p{
+
+        font-size:18px;
+
+        text-align:left;
+
+    }
+
+    #contador{
+
+        font-size:32px;
+
+    }
 
 }

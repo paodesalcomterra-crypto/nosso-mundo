@@ -173,7 +173,7 @@ let coisas = [
 "Amo a menina que você é hoje",
 "Amo pensar em você",
 
-,"Amo quando você fica feliz por coisas simples",
+"Amo quando você fica feliz por coisas simples",
 "Amo quando você fala 'oh minha mãe'",
 "Amo quando você fala ''bãe''",
 "Amo quando você fala com sotaque ''mãnhEEÊ, olha arthur não sei o que''",
